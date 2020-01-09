@@ -535,9 +535,9 @@ public  getCapBound():S2Cap {
         size = output.length;
         // A necessary (but not sufficient) condition is that the XOR of the
         // four cells must be zero. This is also very fast to test.
-        if ((output[size - 3].id.and(output[size - 2].id).and(output[size - 1].id)).notEquals(id.id)) {
-          break;
-        }
+        //if ((output[size - 3].id.and(output[size - 2].id).and(output[size - 1].id)).notEquals(id.id)) {
+        //  break;
+        //}
 
         // Now we do a slightly more expensive but exact test. First, compute a
         // mask that blocks out the two bits that encode the child position of
