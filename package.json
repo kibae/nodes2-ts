@@ -1,5 +1,5 @@
 {
-  "name": "nodes2ts",
+  "name": "nodes2-ts",
   "version": "2.0.0",
   "description": "a Typescript porting of the great S2 Geometry library from Google ",
   "main": "dist/export.js",
